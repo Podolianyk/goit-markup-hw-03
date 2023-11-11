@@ -8,7 +8,7 @@ body {
   list-style-type: none;
 }
 /* чому при додавані посиланню класу, не застосовується колір*/
-a {
+.link {
   text-decoration: none;
 }
 .logo {
@@ -77,18 +77,18 @@ a {
 .main-order:focus {
   background: #404bbf;
 }
-.ben-main-title {
+.benefits-main-title {
   color: #fff;
 }
 
-.ben-title {
+.benefits-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.ben-des {
+.benefits-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -115,7 +115,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-list-dec {
+.team-list-description {
   font-size: 16;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -136,7 +136,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.port-des {
+.port-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -148,7 +148,7 @@ a {
 .end-accent {
   color: #f4f4fd;
 }
-.end-des {
+.end-description {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
