@@ -47,6 +47,8 @@ img {
 .top-container {
   display: flex;
   justify-content: space-between;
+}
+.top-menu {
   border-bottom: 1px solid #e7e9fc;
 }
 .menu {
@@ -107,18 +109,15 @@ img {
   color: #404bbf;
 }
 /*================================Section 1===================================*/
-.main {
+.main-solutions {
   background-color: #2e2f42;
-}
-.main-section {
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
