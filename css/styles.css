@@ -44,24 +44,16 @@ img {
   padding-bottom: 120px;
 }
 /*====================================Header==================================*/
+.top-menu {
+  border-bottom: 1px solid #e7e9fc;
+}
 .top-container {
   display: flex;
   justify-content: space-between;
 }
-.top-menu {
-  border-bottom: 1px solid #e7e9fc;
-}
 .menu {
   display: flex;
   align-items: center;
-}
-.menu-list {
-  display: flex;
-  gap: 40px;
-}
-.contacts-list {
-  display: flex;
-  gap: 40px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -76,6 +68,14 @@ img {
 .accent {
   color: #2e2f42;
 }
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -85,9 +85,7 @@ img {
   padding-bottom: 24px;
   color: #2e2f42;
 }
-.menu-link:hover {
-  color: #404bbf;
-}
+.menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
@@ -102,9 +100,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.contacts-mail:hover {
-  color: #404bbf;
-}
+.contacts-mail:hover,
 .contacts-mail:focus {
   color: #404bbf;
 }
